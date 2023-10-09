@@ -56,8 +56,8 @@
     $orOperator = ($greaterThan || $lessThan);
     $notOperator = !$equalTo;
 
-    echo "<p>Is  $number1 greater than  $number2 AND less than Number 2? = " . ($andOperator ? 'Yes' : 'No') . "</p>";
-    echo "<p>Is  $number1 greater than  $number2 OR less than Number 2?  =" . ($orOperator ? 'Yes' : 'No') . "</p>";
+    echo "<p>Is  $number1 greater than   AND less than $number2? = " . ($andOperator ? 'Yes' : 'No') . "</p>";
+    echo "<p>Is  $number1 greater than   OR less than $number2?  =" . ($orOperator ? 'Yes' : 'No') . "</p>";
     echo "<p>Is  $number1 NOT equal to  $number2?  =" . ($notOperator ? 'Yes' : 'No') . "</p>";
     ?>
 </body>
